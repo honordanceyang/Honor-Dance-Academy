@@ -3,70 +3,97 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Honor Dance Academy - 2026 Class Schedule</title>
+<title>Honor Dance Academy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="container">
-<h1>2026 CLASS SCHEDULE</h1>
+<header class="site-header">
+  <div class="brand">
+    <div class="logo-mark">HDA</div>
+    <div><div class="brand-name">Honor Dance Academy</div><div class="tagline">Cultivating Grace. Inspiring Excellence.</div></div>
+  </div>
+  <button class="menu-button" onclick="document.body.classList.toggle('menu-open')" aria-label="Open menu">☰</button>
+  <nav class="main-nav">
+    <a class="active" href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#instructors">Our Instructors</a>
+    <a href="#programs">Programs</a>
+    <a href="schedule.html">Class Schedule</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact Us</a>
+  </nav>
+</header>
 
-<section class="campus pink">
-<h2>FOLSOM</h2>
-<div class="grid">
-<div><h3>TUESDAY</h3>
-<div class="card junior">3:00pm–4:30pm <span>Junior</span></div>
-<div class="card inter">4:30pm–6:00pm <span>Intermediate</span></div>
-<div class="card adult">7:00pm–8:30pm <span>Adult</span></div>
-</div>
-<div><h3>WEDNESDAY</h3>
-<div class="card adult">6:30pm–8:00pm <span>Adult (Teacher Qian)</span></div>
-</div>
-<div><h3>THURSDAY</h3>
-<div class="card boys">2:30pm–4:00pm <span>Boys</span></div>
-<div class="card adv">4:00pm–5:30pm <span>Advanced</span></div>
-<div class="card adult">7:00pm–8:30pm <span>Adult</span></div>
-</div>
-<div><h3>SATURDAY</h3>
-<div class="card adult">1:30pm–3:00pm <span>Adult</span></div>
-<div class="card junior">4:00pm–5:30pm <span>Junior</span></div>
-<div class="card inter">5:30pm–7:00pm <span>Intermediate</span></div>
-<div class="card adv">7:00pm–8:30pm <span>Advanced</span></div>
-</div>
-<div><h3>SUNDAY</h3>
-<div class="card adult">1:30pm–3:00pm <span>Adult</span></div>
-<div class="card adult">3:10pm–4:40pm <span>Adult (Teacher Qian)</span></div>
-</div>
-</div>
+<main>
+<section id="home" class="hero">
+  <div class="hero-content">
+    <p class="eyebrow">Honor Dance Academy</p>
+    <h1>Where Passion<br>Meets Performance</h1>
+    <p class="hero-copy">Professional dance training for children and adults in a supportive, inspiring, and performance-focused environment.</p>
+    <div class="hero-actions">
+      <a class="button primary" href="#programs">View Our Classes</a>
+      <a class="button secondary" href="#contact">Contact Us</a>
+    </div>
+  </div>
 </section>
 
-<section class="campus blue">
-<h2>ELK GROVE</h2>
-<div class="grid">
-<div><h3>MONDAY</h3>
-<div class="card junior">3:30pm–4:30pm <span>Junior</span></div>
-<div class="card inter">4:30pm–6:00pm <span>Intermediate</span></div>
-<div class="card adv">6:00pm–7:00pm <span>Advanced</span></div>
-</div>
-<div><h3>WEDNESDAY</h3>
-<div class="card special">3:00pm–4:00pm <span>Special Class</span></div>
-<div class="card inter">4:00pm–6:00pm <span>Intermediate</span></div>
-<div class="card junior">6:00pm–7:30pm <span>Junior</span></div>
-<div class="card special">7:30pm–9:00pm <span>Special Class</span></div>
-</div>
-<div><h3>FRIDAY</h3>
-<div class="card junior">4:00pm–5:00pm <span>Junior</span></div>
-<div class="card inter">5:00pm–6:30pm <span>Intermediate</span></div>
-<div class="card adv">6:30pm–8:00pm <span>Advanced</span></div>
-<div class="card pre">8:00pm–9:30pm <span>Pre‑Advanced</span></div>
-</div>
-<div><h3>SATURDAY</h3>
-<div class="card special">11:00am–12:00pm <span>Special Class</span></div>
-</div>
-<div><h3>SUNDAY</h3>
-<div class="card junior">8:30am–10:00am <span>Junior</span></div>
-<div class="card pre">10:00am–11:30am <span>Pre‑Advanced</span></div>
-</div>
-</div>
+<section id="programs" class="section">
+  <div class="section-heading">
+    <span class="section-kicker">Discover Your Passion</span>
+    <h2>Our Dance Programs</h2>
+    <p>Explore a variety of dance styles for different ages, levels, and goals.</p>
+  </div>
+  <div class="program-grid">
+    <article class="program-card">
+      <img src="https://images.unsplash.com/photo-1547153760-18fc86324498?auto=format&fit=crop&w=900&q=80" alt="Chinese classical dance">
+      <div class="program-card-body"><h3>Chinese Classical Dance</h3><p>Elegant movement, expressive storytelling, and the beauty of Chinese dance traditions.</p><a href="#">Learn More</a></div>
+    </article>
+    <article class="program-card">
+      <img src="https://images.unsplash.com/photo-1518834107812-67b0b7c58434?auto=format&fit=crop&w=900&q=80" alt="Chinese ethnic dance">
+      <div class="program-card-body"><h3>Chinese Ethnic Dance</h3><p>Vibrant styles inspired by the rich cultures and traditions of China’s ethnic groups.</p><a href="#">Learn More</a></div>
+    </article>
+    <article class="program-card">
+      <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?auto=format&fit=crop&w=900&q=80" alt="Children learning ballet">
+      <div class="program-card-body"><h3>Children’s Ballet</h3><p>Strong technique, posture, flexibility, musicality, confidence, and stage presence.</p><a href="#">Learn More</a></div>
+    </article>
+    <article class="program-card">
+      <img src="https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=900&q=80" alt="Contemporary dance">
+      <div class="program-card-body"><h3>Contemporary Dance</h3><p>Creativity and freedom of expression through dynamic movement and choreography.</p><a href="#">Learn More</a></div>
+    </article>
+  </div>
 </section>
-</div>
-</body></html>
+
+<section id="about" class="features-section">
+  <div class="feature"><div class="feature-icon">✦</div><div><h3>Experienced Instructors</h3><p>Professional training and years of performance experience.</p></div></div>
+  <div class="feature"><div class="feature-icon">♡</div><div><h3>A Supportive Community</h3><p>Confidence, discipline, friendship, and artistic growth.</p></div></div>
+  <div class="feature"><div class="feature-icon">★</div><div><h3>Stage Opportunities</h3><p>Recitals, showcases, cultural events, and community programs.</p></div></div>
+  <div class="cta-card"><h3>Ready to Dance?</h3><p>Take the first step toward a rewarding dance journey.</p><a class="button light" href="#contact">Contact Us</a></div>
+</section>
+
+<section id="instructors" class="section split-section">
+  <div><span class="section-kicker">Learn From the Best</span><h2>Dedicated Teachers. Meaningful Training.</h2><p>Our instructors combine technical excellence with patient and encouraging guidance for every age and level.</p><a class="text-link" href="#">Meet Our Instructors →</a></div>
+  <div class="split-image"><img src="https://images.unsplash.com/photo-1508807526345-15e9b5f4eaff?auto=format&fit=crop&w=1200&q=80" alt="Dance instructor teaching"></div>
+</section>
+
+<section id="gallery" class="section gallery-section">
+  <div class="section-heading"><span class="section-kicker">On Stage and In Class</span><h2>Gallery</h2></div>
+  <div class="gallery-grid">
+    <img src="https://images.unsplash.com/photo-1547153760-18fc86324498?auto=format&fit=crop&w=700&q=80" alt="Dance performance">
+    <img src="https://images.unsplash.com/photo-1518834107812-67b0b7c58434?auto=format&fit=crop&w=700&q=80" alt="Dance group">
+    <img src="https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=700&q=80" alt="Contemporary dancer">
+    <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?auto=format&fit=crop&w=700&q=80" alt="Ballet class">
+  </div>
+</section>
+
+<section id="contact" class="contact-section">
+  <div><span class="section-kicker light-text">Start Your Dance Journey</span><h2>Contact Honor Dance Academy</h2><p>Contact us for class placement, registration, and current schedules.</p></div>
+  <div class="contact-details"><p><strong>Email:</strong> info@honordanceacademy.com</p><p><strong>Phone:</strong> (916) 555-1234</p><p><strong>Locations:</strong> Folsom and Elk Grove, California</p></div>
+</section>
+</main>
+
+<footer class="site-footer"><p>© 2026 Honor Dance Academy. All rights reserved.</p><div><a href="#">Instagram</a><a href="#">Facebook</a><a href="#">YouTube</a></div></footer>
+</body>
+</html>
